@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+      <html lang="en">
+      <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>Personal Portfolio</title>
+            <link rel="stylesheet" href="style.css">
+      </head>
+      <body>
+           <header class="header-background">
+               <nav>
+                   <ul>
+                     <li><a href="#about">About</a></li>
+                      <li><a href="#portfolio">Portfolio</a></li>
+                      <li><a href="#contact">Contact</a></li>
+                  </ul>
+               </nav>
+              <div class="header-content">
+                  <img src="images.jpg" alt="Profile Photo of Arya">
+                  <h1>Hi, my name is Arya</h1>
+                   <p>Web Developer | Student </p>
+             </div>
+         </header>
+     <main>
+         <section id="about">
+              <h2>~ About Me ~</h2>
+              <img src="images (1).jpg" alt="Arya's Profile" class="profile-photo">
+              <p>Hello there! I'm ARYA, I am a B.Tech student specializing in Electronics and                  Communication Engineering at IARE. Passionate about Software Development, I enjoy  applying my knowledge to solve real-world problems through innovative projects. With skills in programming(PYTHON,JAVA,C),web development,data analysis. I am dedicated to continuous learning and growth. My goal is to contribute to impactful projects while building a successful career in the tech industry.</p>
+            </section>
+         <section id="portfolio">
+             <h2>~ My Work ~</h2>
+            <div class="project" id="PROJECTS">PROJECTS</div>
+            <div class="project" id="SKILLS">SKILLS</div>
+            <div class="project" id="LANGUAGES">LANGUAGES</div>
+            <div class="project" id="ACHIEVEMENTS">ACHIEVEMENTS</div>        
+        </section>
+        <section id="contact">
+            <h2>~ Keep in Touch ~</h2>
+            <button class="btn btn-default td-btn outline white">Send me a message!</button>
+        </section>
+    </main>
+    <footer>
+        <p>Copyright @ARYA — All Rights Reserved</p>
+    </footer>
+</body>
+</html>
